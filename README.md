@@ -8,4 +8,4 @@
 Ссылка на [макет](https://www.figma.com/file/t3mq0yr3iTNrniJ9OV00WG/landing?type=design&node-id=0-1&mode=design&t=9Q32ijFGY1LoDxDj-0) в Figma
 
 ## Опубликованная версия
-[Перейти на сайт](https://alpha3625.github.io/burger-house/)
+[Перейти на сайт](https://topcoderone.github.io/burger-house/)
