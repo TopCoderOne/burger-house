@@ -1,0 +1,24 @@
+.button {
+    background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+    border-radius: 8px;
+    width: 260px;
+    height: 62px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    color: #191411;
+}
+
+.button:hover {
+    background: linear-gradient(95.61deg, #ac6115 0%, #9e7a19 100%);
+}
+
+@media screen and (max-width: 370px) {
+    .button {
+        height: 50px;
+    }
+}

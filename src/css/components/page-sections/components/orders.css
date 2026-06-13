@@ -1,0 +1,40 @@
+.order {
+    background-image: url("../../../../../assets/images/order_bg.png");
+    background-position: top center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+    overflow: hidden;
+}
+
+.order>.container {
+    position: relative;
+}
+
+.order__img {
+    position: absolute;
+    top: 0;
+    right: calc(100% - 764px);
+    z-index: -1;
+}
+
+@media screen and (max-width: 1140px) {
+    .order__img {
+        position: absolute;
+        top: 0;
+        right: calc(100% - 464px);
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .order {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .order__img {
+        display: none;
+    }
+}

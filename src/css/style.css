@@ -1,0 +1,6 @@
+@import './reset.css';
+@import '../../assets/fonts/fonts.css';
+@import './components/ui/index.css';
+@import './components/layout/header.css';
+@import './components/page-sections/index.css';
+@import './components/layout/footer.css';

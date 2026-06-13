@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+figcaption {
+  margin: 0;
+}
+
+body {
+  background-color: #191411;
+  font-family: 'Gilroy', sans-serif;
+  color: #fff;
+  position: relative;
+  font-weight: normal;
+  font-style: normal;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+input,
+button {
+  background: none;
+  border: none;
+}

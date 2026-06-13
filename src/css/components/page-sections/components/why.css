@@ -1,0 +1,65 @@
+.why {
+    background-image: url("../../../../../assets/images/whybg.png");
+    background-position: top center;
+    background-size: 100% 100%;
+    padding-bottom: 180px;
+}
+
+.why__items {
+    margin-top: 60px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3, 312px);
+    justify-content: center;
+}
+
+.why__item {
+    text-align: center;
+}
+
+.why__item-title {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 24px 0;
+}
+
+.why__item-text {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+@media screen and (max-width: 1170px) {
+    .why__items {
+        gap: 50px;
+        grid-template-columns: repeat(2, 312px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .why__items {
+        grid-template-columns: repeat(1, 312px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .why {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .why__items {
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .why__item-title {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+
+    .why__item-text {
+        font-size: 15px;
+    }
+}
